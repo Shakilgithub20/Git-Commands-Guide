@@ -14,6 +14,11 @@ git remote add origin https://github.com/Shakilgithub20/demo.git
 git branch -M main
 git push -u origin main
 ---
+
+# Check git user/email name:
+-> git config --list
+
+# set git :
 -> git config --global user.name <your-name>
 -> git config --global user.email <your-email>
 
