@@ -57,6 +57,15 @@ git config --global color.ui auto
 ```
 set automatic command line coloring for Git for easy reviewing
 
+# Commands 🚀
+___
+
+### GIT Version: 🕵
+
+```
+git --version
+```
+
 ### Configure & INIT :
 Configuring user information, initializing and cloning repositories
 ```
@@ -68,12 +77,5 @@ git clone [url]
 ```
 retrieve an entire repository from a hosted location via URL
 
-# Commands 🚀
-___
 
-### GIT Version: 🕵
-
-```
-git --version
-```
 
