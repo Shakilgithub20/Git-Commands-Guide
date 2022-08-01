@@ -47,7 +47,7 @@ ___
 git --version
 ```
 
-### Configure tooling :
+### Configure tooling 🌍 :
 
 Configuring user information used across all local repositories
 
@@ -133,6 +133,18 @@ $ git reset --hard commitSHA###... # changes staging index and
 # removing 3 commits from online github repo
 $ git push -f origin HEAD^^^:branchNameToUndoLast3Pushs
 ```
+### Help Command 🙏
+
+```
+git help  
+```
+
+### Get help from a specific command 👏
+
+<pre>
+git help <b>commit</b>
+</pre>
+
 
 ## Branches
 | Command | Description |
