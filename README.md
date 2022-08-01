@@ -106,7 +106,7 @@ $ git push
 $ git remote set-url origin git@github.com:yourUsername/yourReponame.git
 ```
 ### Working together from perspective of person that doesn't have the main repo
-``` sh
+``` 
 # fork repo you want to work on
 $ git clone https://github.com/yourUsername/yourReponame.git
 # add changes to your forked repo 
@@ -269,3 +269,18 @@ git help <b>commit</b>
   2. `git fetch origin <branch-name>`
   3. `git checkout <branch-name>`
   4. `cd /`
+ 
+### Commit:
+
+Add & commit
+ ```
+git commit -am 'commit message'   
+```
+Commit empty change
+```
+git commit --allow-empty -m k3;
+```
+Take a commit change of another branch 
+```
+git cherry-pick <commit-hash>  
+```
