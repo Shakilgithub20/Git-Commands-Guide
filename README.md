@@ -39,8 +39,11 @@ the official Git web site.
 htp://git-scm.com
 ```
 
-###SETUP
+
+### SETUP :
+
 Configuring user information used across all local repositories
+
 ```
 git config --global user.name “[firstname lastname]”
 ```
