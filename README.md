@@ -328,3 +328,60 @@ apply any commits of current branch ahead of specified one
 git reset --hard [commit]
  ```
 clear staging area, rewrite working tree from specified commit
+ 
+### TEMPORARY COMMITS
+Temporarily store modified, tracked files in order to change branches
+  ```
+git stash
+  ```
+Save modified and staged changes
+  ```
+git stash list
+  ```
+list stack-order of stashed file changes
+  ```
+git stash pop
+  ```
+write working from top of stash stack
+  ```
+git stash drop
+  ```
+discard the changes from top of stash stack
+ 
+### SHARE & UPDATE
+Retrieving updates from another repository and updating local repos
+ ```
+git remote add [alias] [url]
+ ```
+add a git URL as an alias
+ ```
+git fetch [alias]
+ ```
+fetch down all the branches from that Git remote
+ ```
+git merge [alias]/[branch]
+ ```
+merge a remote branch into your current branch to bring it up to date
+ ```
+git push [alias] [branch]
+ ```
+Transmit local branch commits to the remote repository branch
+ ```
+git pull
+ ```
+
+### TRACKING PATH CHANGES
+Versioning file removes and path changes
+  ```
+git rm [file]
+  ```
+delete the file from project and stage the removal for commit
+  ```
+git mv [existing-path] [new-path]
+  ```
+change an existing file path and stage the move
+  ```
+git log --stat -M
+  ```
+show all commit logs with indication of any paths that moved
+fetch and merge any commits from the tracking remote branch
