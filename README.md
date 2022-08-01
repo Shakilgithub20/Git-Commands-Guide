@@ -40,7 +40,7 @@ htp://git-scm.com
 ```
 
 
-### SETUP :
+### Configure tooling :
 
 Configuring user information used across all local repositories
 
@@ -56,6 +56,17 @@ set an email address that will be associated with each history marker
 git config --global color.ui auto
 ```
 set automatic command line coloring for Git for easy reviewing
+
+### Configure & INIT :
+Configuring user information, initializing and cloning repositories
+```
+git init
+```
+initialize an existing directory as a Git repository
+```
+git clone [url]
+```
+retrieve an entire repository from a hosted location via URL
 
 # Commands 🚀
 ___
