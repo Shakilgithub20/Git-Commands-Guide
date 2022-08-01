@@ -298,7 +298,9 @@ git cherry-pick <commit-hash>
  ```
  git merge origin <branch-1>   
  ```
+ ```
  git mergetool
+ ```
  ```
  git merge --squash <privateFeatureBranch>
  ```
