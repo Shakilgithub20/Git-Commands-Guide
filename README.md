@@ -38,7 +38,14 @@ the official Git web site.
 ```
 htp://git-scm.com
 ```
+# Commands 🚀
+___
 
+### GIT Version: 🕵
+
+```
+git --version
+```
 
 ### Configure tooling :
 
@@ -57,14 +64,7 @@ git config --global color.ui auto
 ```
 set automatic command line coloring for Git for easy reviewing
 
-# Commands 🚀
-___
 
-### GIT Version: 🕵
-
-```
-git --version
-```
 
 ### Configure & INIT :
 Configuring user information, initializing and cloning repositories
