@@ -150,7 +150,6 @@ git help <b>commit</b>
 | Command | Description |
 | - | - |
 | `git branch foo`                          | Create a new branch |
-| `git branch -d foo`                       | Deletes a branch |
 | `git switch foo`                          | Switch to a branch |
 | `git switch -c\|--create foo`             | Create and switch to a branch |
 | `git restore foo.js`                      | Undo all changes on the foo.js file |
@@ -158,6 +157,15 @@ git help <b>commit</b>
 | `git checkout foo`                        | Use `git switch` instead |
 | `git checkout -b foo`                     | Use `git switch -c` instead |
 | `git merge foo`                           | Merge branch into current branch |
+
+
+## Delete 
+| Command | Description |
+| - | - |
+| `git branch -d <branchname> `                       | Delete the local branch, show a warning|
+| `git branch -D <branhcname> `                       | Force to delete branch|
+| `git remote prune origin `                          | Cleanup remote deleted branch |
+
 
 
 ## Pulling
