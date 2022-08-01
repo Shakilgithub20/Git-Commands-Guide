@@ -284,3 +284,21 @@ Take a commit change of another branch
 ```
 git cherry-pick <commit-hash>  
 ```
+### Amend
+ Add any file
+ ```
+ git add task2.txt 
+ ```
+ Merge current change to previous commit and will also change the commit hash
+ ```
+ git commit --amend -m 'new message'
+ ```
+ ### Merge
+ Merge remote 'branch-1' with current branch
+ ```
+ git merge origin <branch-1>   
+ ```
+ git mergetool
+ ```
+ git merge --squash <privateFeatureBranch>
+ ```
