@@ -13,3 +13,11 @@ used Git commands for easy reference.
   - ✔️ Return to previous versions
   - ✔️ Local & Remotes Repositories
   - ▪️▪️▪️ And much more
+# Commands 🚀
+___
+
+### GIT Version: 🕵
+
+```
+git --version
+```
