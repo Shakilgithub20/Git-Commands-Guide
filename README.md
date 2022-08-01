@@ -303,3 +303,28 @@ git cherry-pick <commit-hash>
  ```
  git merge --squash <privateFeatureBranch>
  ```
+
+### IGNORING PATTERNS
+Preventing unintentional staging or commiting of files
+ ```
+logs/
+*.notes
+pattern*/
+ ```
+Save a file with desired paterns as .gitignore with either direct string
+matches or wildcard globs.
+```
+git config --global core.excludesfile [file]
+```
+system wide ignore patern for all local repositories
+
+### REWRITE HISTORY
+Rewriting branches, updating commits and clearing history
+```
+git rebase [branch]
+```
+apply any commits of current branch ahead of specified one
+ ```
+git reset --hard [commit]
+ ```
+clear staging area, rewrite working tree from specified commit
