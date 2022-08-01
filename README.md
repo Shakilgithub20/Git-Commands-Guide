@@ -77,5 +77,15 @@ git clone [url]
 ```
 retrieve an entire repository from a hosted location via URL
 
-
+### Creating a repository online for the <b>1st time</b>!
+``` 
+# navigated into your folder you want to put on Github
+$ touch README.md # create a file called README.md where you can put instructions/info about your folder like what you are reading right now!
+$ git init # initialize your git repository locally
+$ git add . # adds everything changed from local to staging
+$ git commit -m "first commit" # commits everything in staging to be ready to be pushed to Github
+$ git remote add origin https://github.com/quinnliu/GitCommands.git
+$ git push -u origin master # the "-u" is so that the next time your push you don't need to type "origin master"
+# put in username & password
+```
 
