@@ -38,7 +38,7 @@ the official Git web site.
 ```
 htp://git-scm.com
 ```
-# Commands 🚀
+## Commands 🚀
 ___
 
 ### GIT Version: 🕵
@@ -146,7 +146,7 @@ git help <b>commit</b>
 </pre>
 
 
-## Branches
+### Branches
 | Command | Description |
 | - | - |
 | `git branch foo`                          | Create a new branch |
@@ -159,7 +159,7 @@ git help <b>commit</b>
 | `git merge foo`                           | Merge branch into current branch |
 
 
-## Delete 
+### Delete 
 | Command | Description |
 | - | - |
 | `git branch -d <branchname> `                       | Delete the local branch, show a warning|
@@ -168,12 +168,12 @@ git help <b>commit</b>
 
 
 
-## Pulling
+### Pulling
 | Command | Description |
 | - | - |
 | `git pull --rebase --prune`               | Get latest, rebase any changes not checked in and delete branches that no longer exist | 
 
-## Staged Changes
+### Staged Changes
 | Command | Description |
 | - | - |
 | `git add file.txt`                        | Stage file |
@@ -186,7 +186,7 @@ git help <b>commit</b>
 | `git clean -f\|--force -d`                | Recursively remove untracked files from the working tree |
 | `git clean -f\|--force -d -x`             | Recursively remove untracked and ignored files from the working tree |
 
-## Changing Commits
+### Changing Commits
 | Command | Description |
 | - | - |
 | `git reset 5720fdf`                           | Reset current branch but not working area to commit |
@@ -202,14 +202,14 @@ git help <b>commit</b>
 | `git rebase --abort`                          | Cancel an interactive rebase |
 | `git cherry-pick 5720fdf`                     | Copy the commit to the current branch |
 
-## Compare
+### Compare
 | Command | Description |
 | - | - |
 | `git diff`                                | See difference between working area and current branch |
 | `git diff HEAD HEAD~2`                    | See difference between te current commit and two previous commits |
 | `git diff main other`                     | See difference between two branches |
 
-## View
+### View
 | Command | Description |
 | - | - |
 | `git log`                                 | See commit list |
@@ -223,7 +223,7 @@ git help <b>commit</b>
 | `git show 5720fdf`                        | Show named commit |
 | `git blame file.txt`                      | See who changed each line and when |
 
-## Stash
+### Stash
 | Command | Description |
 | - | - |
 | `git stash push -m "Message"`             | Stash staged files |
@@ -234,7 +234,7 @@ git help <b>commit</b>
 | `git stash apply 0`                       | Moved named stash to working area |
 | `git stash clear`                         | Clear the stash |
 
-## Tags
+### Tags
 | Command | Description |
 | - | - |
 | `git tag`                                              | List all tags |
@@ -242,7 +242,7 @@ git help <b>commit</b>
 | `git tag -d\|--delete 0.0.1`                           | Delete a tag |
 | `git push --tags`                                      | Push tags to remote repository |
 
-## Remote
+### Remote
 | Command | Description |
 | - | - |
 | `git remote -v`                           | List remote repositories |
@@ -255,7 +255,7 @@ git help <b>commit</b>
 | `git push --force-with-lease`             | Push any changes but stop if there are any remote changes |
 | `git push --tags`                         | Push tags to remote repository |
 
-## Submodules
+### Submodules
 | Command | Description |
 | - | - |
 | `git submodule status`                    | Check status of all submodules |
@@ -284,7 +284,6 @@ Take a commit change of another branch
 ```
 git cherry-pick <commit-hash>  
 ```
-### Amend
  Add any file
  ```
  git add task2.txt 
