@@ -412,3 +412,20 @@ diff of what is staged but not yet commited
 git commit -m “[descriptive message]”
  ```
 commit your staged content as a new commit snapshot
+
+
+Some more good resources to Learn Git faster ☺️
+ 
+1.Github:
+bit.ly/shakil0090
+2.Git Official Documentation:
+git-scm.com/doc
+3.GitHub Learning Lab:
+https://lnkd.in/dfQY6Jtp
+4.Codecademy Course
+https://lnkd.in/dwG5_C6q
+5. Pro Git: by Scott Chacon [Book]
+git-scm.com/book/en/v2
+6. YouTube
+• FreeCodeCampOrg- beginer
+rb.gy/ljxt5s
