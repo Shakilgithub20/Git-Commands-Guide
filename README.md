@@ -414,18 +414,29 @@ git commit -m “[descriptive message]”
 commit your staged content as a new commit snapshot
 
 
-Some more good resources to Learn Git faster ☺️
- 
-1.Github:
+
+### Some more good resources to Learn Git faster ☺️
+Github:
+ ```
 bit.ly/shakil0090
-2.Git Official Documentation:
+ ```
+Git Official Documentation:
+ ```
 git-scm.com/doc
-3.GitHub Learning Lab:
+ ```
+GitHub Learning Lab:
+ ```
 https://lnkd.in/dfQY6Jtp
-4.Codecademy Course
+ ```
+Codecademy Course
+ ```
 https://lnkd.in/dwG5_C6q
-5. Pro Git: by Scott Chacon [Book]
+ ```
+Pro Git: by Scott Chacon [Book]
+ ```
 git-scm.com/book/en/v2
-6. YouTube
-• FreeCodeCampOrg- beginer
-rb.gy/ljxt5s
+ ```
+YouTube
+ ```
+FreeCodeCampOrg- beginer : rb.gy/ljxt5s
+ ```
