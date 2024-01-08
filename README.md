@@ -414,7 +414,6 @@ git commit -m “[descriptive message]”
 commit your staged content as a new commit snapshot
 
 
-
 ### Some more good resources to Learn Git faster ☺️
 Github:
  ```
